@@ -42,4 +42,15 @@ for(let i = 0; i < numb.length; i++) {
 console.log(array);
 
 // Задание 5
-console.log('Задание 4')
+console.log('Задание 5')
+let numbers = [2, -1, 0, -5, -4];
+let max = numbers[0];
+let arrayTwo = '';
+for(let i = 0; i < numbers.length; i++) {
+    arrayTwo += numbers[i] + ' ';
+}
+console.log(arrayTwo);
+for(let i = 0; i < numbers.length; i++) {
+    if(max < numbers[i]) max = numbers[i];
+}
+console.log(max);
